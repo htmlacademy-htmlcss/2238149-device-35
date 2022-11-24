@@ -3,10 +3,131 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" type="image/png" href="#">
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+<!-- Header start -->
+
+<header class="main-header">
+  <nav class="navigation">
+    <a class="main-header-logo" href="index.html">
+      <img
+         class="page-header-logo"
+         alt="Логотип Девайс."
+         src="images/logo_device.svg"
+         width="145"
+         height="36"
+         />
+      </a>
+
+
+     <ul class="navigation-list">
+      <li class="navigation-item">
+        <form class="search-form" method="get" action="https://htmlacademy.ru/" >
+        <label for="main-search"> <span class="visually-hidden">Поиск по сайту.</span> </label>
+        <input class="search-input" id="main-search" placeholder="Поиск по сайту" type="text" name="main-search" required>
+        <button class="search-submit" type="submit">Найти</button>
+      </form>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">Войти</a>
+      </li>
+     </ul>
+     <ul class="navigation-list navigation-user">
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">Сравнить</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">Корзина</a>
+      </li>
+     </ul>
+     <div class="navigation-catalog">
+      <button class="navigation-catalog-buttom" type="button">Каталог товаров
+        </button>
+      <ul class="subcatalog">
+        <li class="subcatalog-item">
+          <a class="subcatalog-link" href="#">Виртуальная реальность</a>
+        </li>
+        <li class="subcatalog-item">
+          <a class="subcatalog-link" href="#">Моноподы для селфи</a>
+        </li>
+        <li class="subcatalog-item">
+          <a class="subcatalog-link" href="#">Экшн-камеры</a>
+        </li>
+        <li class="subcatalog-item">
+          <a class="subcatalog-link" href="#">Фитнес-браслеты</a>
+        </li>
+        <li class="subcatalog-item">
+          <a class="subcatalog-link" href="#">Умные часы</a>
+        </li>
+        <li class="subcatalog-item">
+          <a class="subcatalog-link" href="#">Квадрокоптеры</a>
+        </li>
+      </ul>
+    </div>
+     <ul class="navigation-main">
+       <li class="navigation-main-item">
+         <a class="navigation-main-link" href="#">Доставка</a>
+      </li>
+      <li class="navigation-main-item">
+         <a class="navigation-main-link" href="#">Гарантия</a>
+      </li>
+      <li class="navigation-main-item">
+         <a class="navigation-main-link" href="#">контакты</a>
+      </li>
+   </ul>
+  </nav>
+</header>
+
+<main class="main-index">
+  <h1 class="visually-hidden">Интернет-магазин "Девайс".</h1>
+  <section class="main-slider">
+    <h2 class="visually-hidden">Фотогалерея лучших товаров.</h2>
+    <div class="slider-controls"
+    <button class="slider-button slider-prev" type="button">
+      <span class="visually-hidden">Предыдущий товар</span>
+    </button>
+    <button class="slider-button slider-next" type="button">
+      <span class="visually-hidden">Следуюший товар</span>
+    </button>
+    </div>
+    <ul class="slider-list">
+      <li class="slider-item">
+        <img class="slider-image" src="images/quadrocopter_main.png"  alt="Квадрокоптер." width="560" height="560">
+        <div class="slider-content">
+
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="catalog">
+    <ul class="catalog-all">
+      <li class="catalog-item">
+        <a class="catalog-link" href="#">Виртуальная реальность</a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link" href="#">Моноподы для селфи</a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link" href="#">Экшн-камеры</a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link" href="#">Фитнес-браслеты</a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link" href="#">Умные часы</a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link" href="#">Квадрокоптеры</a>
+      </li>
+    </ul>
+  </section>
+</main>
+
+
 
   </body>
 </html>
