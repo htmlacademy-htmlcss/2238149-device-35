@@ -68,9 +68,11 @@ body {
 }
 
 .main-header {
-  background: linear-gradient(#ffffff 40px,#ffe17f 40px);
+  background: #FFE17F;
   color: #000000;
 }
+
+/*
 
 .link {
   font-family: "Raleway", sans-serif;
