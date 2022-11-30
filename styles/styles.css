@@ -1,93 +1,4 @@
 @font-face {
-	font-family: "rubik";
-	font-style: normal;
-	font-weight: 400;
-	src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "rubik";
-	font-style: normal;
-	font-weight: 700;
-	src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "raleway";
-	font-style: normal;
-	font-weight: 800;
-	src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
-	font-display: swap;
-}
-
-html {
-	height: 100%;
-}
-
-body {
-	font-family: "rubik", sans-serif;
-	font-style: normal;
-	font-size: 18px;
-	line-height: 30px;
-	color: #000000;
-	background-color: #ffffff;
-	list-style-type: none;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-	width: 1440px;
-}
-
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
-.main-container{
-  flex-grow: 1;
-}
-
-.navigation{
-display: flex;
-width: 1160px;
-margin: 0 auto;
-}
-
-.navigation-list{
-
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.slider-item{
-  display: none;
-}
-
-.slider-item.is-active{
-  display: block;
-}
-
-.main-header {
-  background: #FFE17F;
-  color: #000000;
-}
-
-
-/*@font-face {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
@@ -225,12 +136,6 @@ body {
 .catalog-container {
   background: #f0f0f0;
 }
-
-
-
-
-
-
 
 .subscribe-input {
   border: none;
@@ -392,37 +297,37 @@ body {
 }
 
 .virtual-reality::before {
-  background-image: url(../images/virtual-reality-icon.svg);
+  background-image: url(../images/virt_real.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .monopods::before {
-  background-image: url(../images/monopods-icon.svg);
+  background-image: url(../images/selfi.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .action-cameras::before {
-  background-image: url(../images/action-cameras-icon.svg);
+  background-image: url(../images/action_cam.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .fitness-bracelets::before {
-  background-image: url(../images/fitness-bracelets-icon.svg);
+  background-image: url(../images/fitness.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .smart-watch::before {
-  background-image: url(../images/smart-watch-icon.svg);
+  background-image: url(../images/smart_watches.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .quadrocopters::before {
-  background-image: url(../images/quadrocopters-icon.svg);
+  background-image: url(../images/quadrocopter.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
