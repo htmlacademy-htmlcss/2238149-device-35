@@ -489,6 +489,11 @@ body {
 .about {
 	margin-right: 123px;
 	padding-right: 23px;
+  width: 50%;
+}
+
+.contacts{
+  width: 50%;
 }
 
 .footer-social-list {
